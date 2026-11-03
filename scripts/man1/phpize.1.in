@@ -1,0 +1,40 @@
+.TH @program_prefix@phpize 1 "2024" "The PHP Group" "Scripting Language"
+.SH NAME
+@program_prefix@phpize \- prepare a PHP extension for compiling
+.SH SYNOPSIS
+.B @program_prefix@phpize
+[options]
+.LP
+.SH DESCRIPTION
+.B @program_prefix@phpize
+is a shell script to prepare PHP extension for compiling.
+.SH OPTIONS
+.TP 15
+.PD 0
+.B \-\-clean
+Remove all created files
+.TP
+.PD 0
+.B \-\-help
+Prints usage information
+.TP
+.PD 0
+.B \-\-version
+.TP
+.PD 1
+.B \-v
+Prints API version information
+.RS
+.PD 1
+.P
+.SH SEE ALSO
+.BR @program_prefix@php (1)
+.SH VERSION INFORMATION
+This manpage describes \fBphp\fP, version @PHP_VERSION@.
+.SH COPYRIGHT
+Copyright \(co The PHP Group and Contributors
+.LP
+This source file is subject to the Modified BSD License that is
+bundled with this package in the file LICENSE, and is available
+through the World Wide Web at
+.B https://www.php.net/license/
